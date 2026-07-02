@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sona — Proof</title>
+<style>
+  :root { --blue:#2F6BFF; --green:#2BD17E; --red:#FF4D55;
+          --amber:#FFB020; --gray:#9AA0A6; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:#F7F8FA; color:#14181F;
+         font: 15px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI",
+               Roboto, Helvetica, Arial, sans-serif; }
+  main { max-width: 860px; margin: 0 auto; padding: 32px 20px 48px; }
+  h1 { font-size: 26px; margin: 0 0 4px; }
+  h2 { font-size: 17px; margin: 32px 0 8px; }
+  .hero { font-size: 19px; font-weight: 600; color: var(--blue);
+          margin: 12px 0 4px; }
+  .sub { color:#5B6470; font-size: 13px; }
+  .card { background:#fff; border:1px solid #E3E6EB; border-radius:10px;
+          padding:14px 16px; margin-top:10px; }
+  .pill { display:inline-block; border-radius:999px; padding:1px 10px;
+          font-size:11px; font-weight:700; color:#fff;
+          text-transform:uppercase; letter-spacing:.4px; }
+  .hash { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas,
+          monospace; font-size:12px; word-break: break-all; color:#2A3140; }
+  .stat { color:#5B6470; font-size:12px; margin-top:2px; }
+  .verdict { margin-top:4px; font-size:14px; }
+  .caveat { color:#8A6100; font-size:12px; margin-top:4px; }
+  .caveats { border:2px solid var(--amber); background:#FFF8EA; }
+  .caveats li { margin: 6px 0; }
+  table { width:100%; border-collapse: collapse; margin-top:6px; }
+  th, td { text-align:left; padding:6px 8px; font-size:13px;
+           border-bottom:1px solid #EDEFF3; }
+  th { color:#5B6470; font-weight:600; font-size:12px; }
+  td.num, th.num { text-align:right; }
+  ol { padding-left: 20px; }
+  ol li { margin: 8px 0; font-size: 14px; }
+  footer { margin-top: 36px; padding-top: 14px; border-top:1px solid #E3E6EB;
+           color:#5B6470; font-size:12px; }
+</style>
+</head>
+<body>
+<main>
+<h1>Sona — Proof</h1>
+<p class="hero">Every Sona signal is hash-committed publicly before the market can prove it right or wrong.</p>
+<p class="sub">A hash-chained public ledger of prediction-set fingerprints, honest out-of-sample verdicts on every signal layer (including the negative ones), and simulated model-book results. Hashes and aggregates only — never signal contents. As of 2026-07-02.</p>
+<h2>Chain status</h2>
+<div class="card">
+<span class="pill" style="background:#2BD17E">chain intact</span>
+<div class="stat">2 committed entries — 2026-07-02 → 2026-07-02</div>
+<div class="hash">latest entry hash: 168b442e84dfca5d7cf563cc3d4045bf497126dfa56924a9376ccd84c7a8b496</div>
+</div>
+<h2>Signal report cards</h2>
+<p class="sub">Walk-forward, out-of-sample tests of the layers behind Sona's rankings. |t| ≥ 2 is the bar for a real edge. A "no edge" or "accruing" verdict is published exactly like a positive one.</p>
+<div class="card">
+<strong>Estimate revisions</strong> <span class="pill" style="background:#9AA0A6">accruing</span>
+<div class="verdict">accruing — 30 of ~39 periods of point-in-time history; no verdict yet</div>
+</div>
+<div class="card">
+<strong>Price momentum</strong> <span class="pill" style="background:#FFB020">unproven</span>
+<div class="verdict">tested — suggestive but not significant (best 63d, HAC t=+1.46); treated as unproven</div>
+<div class="stat">IC +0.046 · t +1.46 · 63d horizon</div>
+<div class="caveat">⚠ Backtest universe basis: current constituents (survivorship-biased history) — multi-year statistics are inflated by survivorship until point-in-time membership snapshots fully accrue (they now accrue per run).</div>
+</div>
+<div class="card">
+<strong>Theme momentum</strong> <span class="pill" style="background:#9AA0A6">accruing</span>
+<div class="verdict">accruing — 30 of ~39 periods of point-in-time history; no verdict yet</div>
+</div>
+<h2>Simulated model books</h2>
+<p class="sub">Paper portfolios built purely from Sona's signals — simulated bookkeeping over fetched prices, labelled as such. No real money, no fees or slippage. Aggregate results only.</p>
+<div class="card">
+<table>
+<tr><th>Book (simulated)</th><th>Since</th><th class="num">Return</th><th class="num">Vs benchmark</th><th>Benchmark</th></tr>
+<tr><td>alpha-balanced</td><td>2026-06-12</td><td class="num">+0.04%</td><td class="num">-0.31%</td><td>SPY</td></tr>
+<tr><td>alpha-bear</td><td>2026-06-12</td><td class="num">-0.41%</td><td class="num">-0.75%</td><td>SPY</td></tr>
+<tr><td>alpha-capital_preservation</td><td>2026-06-12</td><td class="num">-0.32%</td><td class="num">-0.67%</td><td>SPY</td></tr>
+<tr><td>alpha-growth</td><td>2026-06-12</td><td class="num">-0.13%</td><td class="num">-0.48%</td><td>SPY</td></tr>
+<tr><td>ideas</td><td>2026-06-12</td><td class="num">-2.53%</td><td class="num">-2.88%</td><td>SPY</td></tr>
+<tr><td>model-balanced</td><td>2026-06-12</td><td class="num">-0.20%</td><td class="num">-0.55%</td><td>SPY</td></tr>
+<tr><td>model-bear</td><td>2026-06-12</td><td class="num">-0.33%</td><td class="num">-0.67%</td><td>SPY</td></tr>
+<tr><td>model-capital_preservation</td><td>2026-06-12</td><td class="num">-0.43%</td><td class="num">-0.78%</td><td>SPY</td></tr>
+<tr><td>model-growth</td><td>2026-06-12</td><td class="num">+0.08%</td><td class="num">-0.27%</td><td>SPY</td></tr>
+</table>
+</div>
+<h2>Caveats — read these first</h2>
+<div class="card caveats"><ul>
+<li>Backtest universe basis: current constituents (survivorship-biased history) — multi-year statistics are inflated by survivorship until point-in-time membership snapshots fully accrue (they now accrue per run).</li>
+<li>Past performance — simulated or real — does not guarantee future results.</li>
+</ul></div>
+<h2>How to verify this yourself</h2>
+<ol>
+<li>Clone the public proof-ledger repository (this page ships inside it) — its git commit history is the independent timestamp: each commit proves the hashes it contains existed no later than the commit time.</li>
+<li>Check the chain in ledger.jsonl: every entry&#x27;s entry_hash is the SHA-256 of its canonical JSON (sorted keys, compact separators, entry_hash field removed), and each entry&#x27;s prev_hash must equal the previous entry&#x27;s entry_hash. Edit or remove any line and every later hash breaks.</li>
+<li>When a prediction payload is revealed, re-hash the revealed canonical JSON file (SHA-256) and compare it to the artifact sha256 committed for that day — a match proves the prediction existed, unaltered, on the committed date.</li>
+</ol>
+<footer>
+<p>Sona is informational research, not investment advice. Hypothetical and simulated results have inherent limitations: they involve no real capital, no fees, taxes, slippage or liquidity impact, and are prepared with the benefit of hindsight in their construction. Nothing here is a recommendation to buy or sell anything.</p>
+<p>This page is generated from the same ledger it ships with; the repository's commit history is the timestamp authority.</p>
+</footer>
+</main>
+</body>
+</html>
