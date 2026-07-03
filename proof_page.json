@@ -1,11 +1,11 @@
 {
-  "as_of": "2026-07-02",
+  "as_of": "2026-07-03",
   "hero": "Every Sona signal is hash-committed publicly before the market can prove it right or wrong.",
   "chain": {
-    "n_entries": 2,
+    "n_entries": 3,
     "first_day": "2026-07-02",
     "last_day": "2026-07-02",
-    "latest_hash": "168b442e84dfca5d7cf563cc3d4045bf497126dfa56924a9376ccd84c7a8b496",
+    "latest_hash": "371c5024a8b2378a5335712e0f59838f8b8cf6c0d56d1bce3cd33f792cf0f9b0",
     "verified": true
   },
   "signals": [
@@ -29,88 +29,89 @@
     {
       "name": "Theme momentum",
       "status": "accruing",
-      "ic": null,
+      "ic": 0.030512403961487234,
       "t_stat": null,
-      "horizon": null,
-      "verdict": "accruing \u2014 30 of ~39 periods of point-in-time history; no verdict yet"
+      "horizon": 126,
+      "verdict": "accruing \u2014 30 of ~39 periods; panel IC +0.031 at 126d, significance pending"
     }
   ],
   "books": [
     {
       "name": "alpha-balanced",
       "since": "2026-06-12",
-      "return_pct": 0.04,
-      "vs_benchmark_pct": -0.31,
+      "return_pct": 0.33,
+      "vs_benchmark_pct": -0.34,
       "benchmark": "SPY",
       "n_points": 16
     },
     {
       "name": "alpha-bear",
       "since": "2026-06-12",
-      "return_pct": -0.41,
-      "vs_benchmark_pct": -0.75,
+      "return_pct": -0.32,
+      "vs_benchmark_pct": -0.98,
       "benchmark": "SPY",
       "n_points": 14
     },
     {
       "name": "alpha-capital_preservation",
       "since": "2026-06-12",
-      "return_pct": -0.32,
-      "vs_benchmark_pct": -0.67,
+      "return_pct": -0.18,
+      "vs_benchmark_pct": -0.84,
       "benchmark": "SPY",
       "n_points": 16
     },
     {
       "name": "alpha-growth",
       "since": "2026-06-12",
-      "return_pct": -0.13,
-      "vs_benchmark_pct": -0.48,
+      "return_pct": 0.26,
+      "vs_benchmark_pct": -0.4,
       "benchmark": "SPY",
       "n_points": 16
     },
     {
       "name": "ideas",
       "since": "2026-06-12",
-      "return_pct": -2.53,
-      "vs_benchmark_pct": -2.88,
+      "return_pct": -1.95,
+      "vs_benchmark_pct": -2.62,
       "benchmark": "SPY",
       "n_points": 16
     },
     {
       "name": "model-balanced",
       "since": "2026-06-12",
-      "return_pct": -0.2,
-      "vs_benchmark_pct": -0.55,
+      "return_pct": 0.05,
+      "vs_benchmark_pct": -0.61,
       "benchmark": "SPY",
       "n_points": 16
     },
     {
       "name": "model-bear",
       "since": "2026-06-12",
-      "return_pct": -0.33,
-      "vs_benchmark_pct": -0.67,
+      "return_pct": -0.24,
+      "vs_benchmark_pct": -0.9,
       "benchmark": "SPY",
       "n_points": 14
     },
     {
       "name": "model-capital_preservation",
       "since": "2026-06-12",
-      "return_pct": -0.43,
-      "vs_benchmark_pct": -0.78,
+      "return_pct": -0.29,
+      "vs_benchmark_pct": -0.96,
       "benchmark": "SPY",
       "n_points": 16
     },
     {
       "name": "model-growth",
       "since": "2026-06-12",
-      "return_pct": 0.08,
-      "vs_benchmark_pct": -0.27,
+      "return_pct": 0.41,
+      "vs_benchmark_pct": -0.26,
       "benchmark": "SPY",
       "n_points": 16
     }
   ],
   "caveats": [
     "Backtest universe basis: current constituents (survivorship-biased history) \u2014 multi-year statistics are inflated by survivorship until point-in-time membership snapshots fully accrue (they now accrue per run).",
+    "Theme-exposure history was backfilled from dated filings under today's theme taxonomy \u2014 the labels benefit from hindsight; treat theme statistics as provisional until the live point-in-time record dominates.",
     "Past performance \u2014 simulated or real \u2014 does not guarantee future results."
   ],
   "how_to_verify": [

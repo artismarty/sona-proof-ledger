@@ -44,12 +44,12 @@
 <main>
 <h1>Sona — Proof</h1>
 <p class="hero">Every Sona signal is hash-committed publicly before the market can prove it right or wrong.</p>
-<p class="sub">A hash-chained public ledger of prediction-set fingerprints, honest out-of-sample verdicts on every signal layer (including the negative ones), and simulated model-book results. Hashes and aggregates only — never signal contents. As of 2026-07-02.</p>
+<p class="sub">A hash-chained public ledger of prediction-set fingerprints, honest out-of-sample verdicts on every signal layer (including the negative ones), and simulated model-book results. Hashes and aggregates only — never signal contents. As of 2026-07-03.</p>
 <h2>Chain status</h2>
 <div class="card">
 <span class="pill" style="background:#2BD17E">chain intact</span>
-<div class="stat">2 committed entries — 2026-07-02 → 2026-07-02</div>
-<div class="hash">latest entry hash: 168b442e84dfca5d7cf563cc3d4045bf497126dfa56924a9376ccd84c7a8b496</div>
+<div class="stat">3 committed entries — 2026-07-02 → 2026-07-02</div>
+<div class="hash">latest entry hash: 371c5024a8b2378a5335712e0f59838f8b8cf6c0d56d1bce3cd33f792cf0f9b0</div>
 </div>
 <h2>Signal report cards</h2>
 <p class="sub">Walk-forward, out-of-sample tests of the layers behind Sona's rankings. |t| ≥ 2 is the bar for a real edge. A "no edge" or "accruing" verdict is published exactly like a positive one.</p>
@@ -65,27 +65,29 @@
 </div>
 <div class="card">
 <strong>Theme momentum</strong> <span class="pill" style="background:#9AA0A6">accruing</span>
-<div class="verdict">accruing — 30 of ~39 periods of point-in-time history; no verdict yet</div>
+<div class="verdict">accruing — 30 of ~39 periods; panel IC +0.031 at 126d, significance pending</div>
+<div class="stat">IC +0.031 · 126d horizon</div>
 </div>
 <h2>Simulated model books</h2>
 <p class="sub">Paper portfolios built purely from Sona's signals — simulated bookkeeping over fetched prices, labelled as such. No real money, no fees or slippage. Aggregate results only.</p>
 <div class="card">
 <table>
 <tr><th>Book (simulated)</th><th>Since</th><th class="num">Return</th><th class="num">Vs benchmark</th><th>Benchmark</th></tr>
-<tr><td>alpha-balanced</td><td>2026-06-12</td><td class="num">+0.04%</td><td class="num">-0.31%</td><td>SPY</td></tr>
-<tr><td>alpha-bear</td><td>2026-06-12</td><td class="num">-0.41%</td><td class="num">-0.75%</td><td>SPY</td></tr>
-<tr><td>alpha-capital_preservation</td><td>2026-06-12</td><td class="num">-0.32%</td><td class="num">-0.67%</td><td>SPY</td></tr>
-<tr><td>alpha-growth</td><td>2026-06-12</td><td class="num">-0.13%</td><td class="num">-0.48%</td><td>SPY</td></tr>
-<tr><td>ideas</td><td>2026-06-12</td><td class="num">-2.53%</td><td class="num">-2.88%</td><td>SPY</td></tr>
-<tr><td>model-balanced</td><td>2026-06-12</td><td class="num">-0.20%</td><td class="num">-0.55%</td><td>SPY</td></tr>
-<tr><td>model-bear</td><td>2026-06-12</td><td class="num">-0.33%</td><td class="num">-0.67%</td><td>SPY</td></tr>
-<tr><td>model-capital_preservation</td><td>2026-06-12</td><td class="num">-0.43%</td><td class="num">-0.78%</td><td>SPY</td></tr>
-<tr><td>model-growth</td><td>2026-06-12</td><td class="num">+0.08%</td><td class="num">-0.27%</td><td>SPY</td></tr>
+<tr><td>alpha-balanced</td><td>2026-06-12</td><td class="num">+0.33%</td><td class="num">-0.34%</td><td>SPY</td></tr>
+<tr><td>alpha-bear</td><td>2026-06-12</td><td class="num">-0.32%</td><td class="num">-0.98%</td><td>SPY</td></tr>
+<tr><td>alpha-capital_preservation</td><td>2026-06-12</td><td class="num">-0.18%</td><td class="num">-0.84%</td><td>SPY</td></tr>
+<tr><td>alpha-growth</td><td>2026-06-12</td><td class="num">+0.26%</td><td class="num">-0.40%</td><td>SPY</td></tr>
+<tr><td>ideas</td><td>2026-06-12</td><td class="num">-1.95%</td><td class="num">-2.62%</td><td>SPY</td></tr>
+<tr><td>model-balanced</td><td>2026-06-12</td><td class="num">+0.05%</td><td class="num">-0.61%</td><td>SPY</td></tr>
+<tr><td>model-bear</td><td>2026-06-12</td><td class="num">-0.24%</td><td class="num">-0.90%</td><td>SPY</td></tr>
+<tr><td>model-capital_preservation</td><td>2026-06-12</td><td class="num">-0.29%</td><td class="num">-0.96%</td><td>SPY</td></tr>
+<tr><td>model-growth</td><td>2026-06-12</td><td class="num">+0.41%</td><td class="num">-0.26%</td><td>SPY</td></tr>
 </table>
 </div>
 <h2>Caveats — read these first</h2>
 <div class="card caveats"><ul>
 <li>Backtest universe basis: current constituents (survivorship-biased history) — multi-year statistics are inflated by survivorship until point-in-time membership snapshots fully accrue (they now accrue per run).</li>
+<li>Theme-exposure history was backfilled from dated filings under today&#x27;s theme taxonomy — the labels benefit from hindsight; treat theme statistics as provisional until the live point-in-time record dominates.</li>
 <li>Past performance — simulated or real — does not guarantee future results.</li>
 </ul></div>
 <h2>How to verify this yourself</h2>
