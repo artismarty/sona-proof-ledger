@@ -1,11 +1,11 @@
 {
-  "as_of": "2026-07-03",
+  "as_of": "2026-07-04",
   "hero": "Every Sona signal is hash-committed publicly before the market can prove it right or wrong.",
   "chain": {
-    "n_entries": 3,
+    "n_entries": 4,
     "first_day": "2026-07-02",
-    "last_day": "2026-07-02",
-    "latest_hash": "371c5024a8b2378a5335712e0f59838f8b8cf6c0d56d1bce3cd33f792cf0f9b0",
+    "last_day": "2026-07-03",
+    "latest_hash": "888d2ffbf8b7df50b5e16aa36e44931e938aa9bac8e1489c01cf3e59e7e92daa",
     "verified": true
   },
   "signals": [
@@ -20,10 +20,10 @@
     {
       "name": "Price momentum",
       "status": "unproven",
-      "ic": 0.04576982387134126,
-      "t_stat": 1.464553557441753,
+      "ic": 0.04973522994896453,
+      "t_stat": 1.5811883125610124,
       "horizon": 63,
-      "verdict": "tested \u2014 suggestive but not significant (best 63d, HAC t=+1.46); treated as unproven",
+      "verdict": "tested \u2014 suggestive but not significant (best 63d, HAC t=+1.58); treated as unproven",
       "caveat": "Backtest universe basis: current constituents (survivorship-biased history) \u2014 multi-year statistics are inflated by survivorship until point-in-time membership snapshots fully accrue (they now accrue per run)."
     },
     {
