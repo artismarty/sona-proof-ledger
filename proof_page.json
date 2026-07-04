@@ -2,10 +2,10 @@
   "as_of": "2026-07-04",
   "hero": "Every Sona signal is hash-committed publicly before the market can prove it right or wrong.",
   "chain": {
-    "n_entries": 4,
+    "n_entries": 5,
     "first_day": "2026-07-02",
-    "last_day": "2026-07-03",
-    "latest_hash": "888d2ffbf8b7df50b5e16aa36e44931e938aa9bac8e1489c01cf3e59e7e92daa",
+    "last_day": "2026-07-04",
+    "latest_hash": "2f5735f6bc0bcdad654a08d191f2b9b243e3a813a58dc28476639aa1219aab6a",
     "verified": true
   },
   "signals": [
@@ -29,7 +29,7 @@
     {
       "name": "Theme momentum",
       "status": "accruing",
-      "ic": 0.030512403961487234,
+      "ic": 0.03055954017067209,
       "t_stat": null,
       "horizon": 126,
       "verdict": "accruing \u2014 30 of ~39 periods; panel IC +0.031 at 126d, significance pending"
