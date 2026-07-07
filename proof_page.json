@@ -2,10 +2,10 @@
   "as_of": "2026-07-07",
   "hero": "Every Sona signal is hash-committed publicly before the market can prove it right or wrong.",
   "chain": {
-    "n_entries": 8,
+    "n_entries": 9,
     "first_day": "2026-07-02",
-    "last_day": "2026-07-05",
-    "latest_hash": "dbd04545faef7e2069739a0e7b94a773aa0e8280212cdf5df63bb41a5bf57087",
+    "last_day": "2026-07-07",
+    "latest_hash": "e9ec4ba8c5641dcf53458367700cea66572ab7eb552af31588200bb2e7ba04c8",
     "verified": true
   },
   "signals": [
