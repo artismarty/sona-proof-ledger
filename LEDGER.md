@@ -13,3 +13,4 @@
 | 2026-07-07 | 1 | `e9ec4ba8c5641dcf53458367700cea66572ab7eb552af31588200bb2e7ba04c8` | cascade (47), journal (3), paper_books (12), winners (50) |
 | 2026-07-07 | 2 | `e629e056c2bd3d77a9e301f811e264de9047f04961c09f1a3955c45568b3438b` | cascade (47), journal (3), paper_books (12), winners (50) |
 | 2026-07-08 | 1 | `d542919fa497a433140b7c400d890959e94806da727e7a9f2489185b5fd96b36` | cascade (45), journal (3), paper_books (12), winners (50) |
+| 2026-07-08 | 2 | `12097e69bb7a43f0aaff2b22986c6b7602b138c1b7ad91c39f960276e5f770b8` | cascade (45), journal (3), paper_books (12), winners (50) |
