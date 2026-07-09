@@ -1,11 +1,11 @@
 {
-  "as_of": "2026-07-09",
+  "as_of": "2026-07-10",
   "hero": "Every Sona signal is hash-committed publicly before the market can prove it right or wrong.",
   "chain": {
-    "n_entries": 12,
+    "n_entries": 13,
     "first_day": "2026-07-02",
-    "last_day": "2026-07-08",
-    "latest_hash": "12097e69bb7a43f0aaff2b22986c6b7602b138c1b7ad91c39f960276e5f770b8",
+    "last_day": "2026-07-09",
+    "latest_hash": "117c25e78a5b862757a42bac15b29c5ffac2745769c0dcde771882924a27efb8",
     "verified": true
   },
   "signals": [
@@ -39,74 +39,74 @@
     {
       "name": "alpha-balanced",
       "since": "2026-06-12",
-      "return_pct": 0.32,
-      "vs_benchmark_pct": -0.43,
+      "return_pct": 0.95,
+      "vs_benchmark_pct": -0.65,
       "benchmark": "SPY",
-      "n_points": 19
+      "n_points": 20
     },
     {
       "name": "alpha-bear",
       "since": "2026-06-12",
-      "return_pct": -0.87,
-      "vs_benchmark_pct": -1.62,
+      "return_pct": -0.77,
+      "vs_benchmark_pct": -2.37,
       "benchmark": "SPY",
-      "n_points": 17
+      "n_points": 18
     },
     {
       "name": "alpha-capital_preservation",
       "since": "2026-06-12",
-      "return_pct": -0.46,
-      "vs_benchmark_pct": -1.21,
+      "return_pct": -0.11,
+      "vs_benchmark_pct": -1.71,
       "benchmark": "SPY",
-      "n_points": 19
+      "n_points": 20
     },
     {
       "name": "alpha-growth",
       "since": "2026-06-12",
-      "return_pct": 0.46,
-      "vs_benchmark_pct": -0.29,
+      "return_pct": 1.28,
+      "vs_benchmark_pct": -0.32,
       "benchmark": "SPY",
-      "n_points": 19
+      "n_points": 20
     },
     {
       "name": "ideas",
       "since": "2026-06-12",
-      "return_pct": -0.99,
-      "vs_benchmark_pct": -1.74,
+      "return_pct": -0.03,
+      "vs_benchmark_pct": -1.63,
       "benchmark": "SPY",
-      "n_points": 19
+      "n_points": 20
     },
     {
       "name": "model-balanced",
       "since": "2026-06-12",
-      "return_pct": -0.32,
-      "vs_benchmark_pct": -1.07,
+      "return_pct": 0.29,
+      "vs_benchmark_pct": -1.31,
       "benchmark": "SPY",
-      "n_points": 19
+      "n_points": 20
     },
     {
       "name": "model-bear",
       "since": "2026-06-12",
-      "return_pct": -0.89,
-      "vs_benchmark_pct": -1.64,
+      "return_pct": -0.85,
+      "vs_benchmark_pct": -2.46,
       "benchmark": "SPY",
-      "n_points": 17
+      "n_points": 18
     },
     {
       "name": "model-capital_preservation",
       "since": "2026-06-12",
-      "return_pct": -0.67,
-      "vs_benchmark_pct": -1.42,
+      "return_pct": -0.33,
+      "vs_benchmark_pct": -1.93,
       "benchmark": "SPY",
-      "n_points": 19
+      "n_points": 20
     },
     {
       "name": "model-growth",
       "since": "2026-06-12",
-      "return_pct": 0.07,
-      "vs_benchmark_pct": -0.68,
+      "return_pct": 0.88,
+      "vs_benchmark_pct": -0.72,
       "benchmark": "SPY",
-      "n_points": 19
+      "n_points": 20
     }
   ],
   "caveats": [
