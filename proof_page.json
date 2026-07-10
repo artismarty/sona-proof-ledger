@@ -1,12 +1,12 @@
 {
-  "as_of": "2026-07-10",
+  "as_of": "2026-07-11",
   "hero": "Every Sona signal is hash-committed publicly before the market can prove it right or wrong.",
   "chain": {
-    "n_entries": 13,
-    "first_day": "2026-07-02",
-    "last_day": "2026-07-09",
-    "latest_hash": "117c25e78a5b862757a42bac15b29c5ffac2745769c0dcde771882924a27efb8",
-    "verified": true
+    "n_entries": 0,
+    "first_day": null,
+    "last_day": null,
+    "latest_hash": null,
+    "verified": false
   },
   "signals": [
     {
@@ -19,94 +19,94 @@
     },
     {
       "name": "Price momentum",
-      "status": "unproven",
-      "ic": 0.04973522994896453,
-      "t_stat": 1.5811883125610124,
-      "horizon": 63,
-      "verdict": "tested \u2014 suggestive but not significant (best 63d, HAC t=+1.58); treated as unproven",
+      "status": "no_edge",
+      "ic": 0.04468357533458353,
+      "t_stat": 0.8850617238871148,
+      "horizon": 126,
+      "verdict": "tested \u2014 no edge found (best 126d, HAC t=+0.89, indistinguishable from noise)",
       "caveat": "Backtest universe basis: current constituents (survivorship-biased history) \u2014 multi-year statistics are inflated by survivorship until point-in-time membership snapshots fully accrue (they now accrue per run)."
     },
     {
       "name": "Theme momentum",
       "status": "accruing",
-      "ic": 0.015231521479427808,
+      "ic": 0.020378958737277644,
       "t_stat": null,
       "horizon": 126,
-      "verdict": "accruing \u2014 86 of ~39 periods; panel IC +0.015 at 126d, significance pending"
+      "verdict": "accruing \u2014 86 of ~39 periods; panel IC +0.020 at 126d, significance pending"
     }
   ],
   "books": [
     {
       "name": "alpha-balanced",
       "since": "2026-06-12",
-      "return_pct": 0.95,
-      "vs_benchmark_pct": -0.65,
+      "return_pct": 0.98,
+      "vs_benchmark_pct": -1.04,
       "benchmark": "SPY",
-      "n_points": 20
+      "n_points": 21
     },
     {
       "name": "alpha-bear",
       "since": "2026-06-12",
       "return_pct": -0.77,
-      "vs_benchmark_pct": -2.37,
+      "vs_benchmark_pct": -2.79,
       "benchmark": "SPY",
-      "n_points": 18
+      "n_points": 19
     },
     {
       "name": "alpha-capital_preservation",
       "since": "2026-06-12",
-      "return_pct": -0.11,
-      "vs_benchmark_pct": -1.71,
+      "return_pct": -0.12,
+      "vs_benchmark_pct": -2.14,
       "benchmark": "SPY",
-      "n_points": 20
+      "n_points": 21
     },
     {
       "name": "alpha-growth",
       "since": "2026-06-12",
-      "return_pct": 1.28,
-      "vs_benchmark_pct": -0.32,
+      "return_pct": 1.37,
+      "vs_benchmark_pct": -0.66,
       "benchmark": "SPY",
-      "n_points": 20
+      "n_points": 21
     },
     {
       "name": "ideas",
       "since": "2026-06-12",
-      "return_pct": -0.03,
-      "vs_benchmark_pct": -1.63,
+      "return_pct": 0.02,
+      "vs_benchmark_pct": -2.0,
       "benchmark": "SPY",
-      "n_points": 20
+      "n_points": 21
     },
     {
       "name": "model-balanced",
       "since": "2026-06-12",
-      "return_pct": 0.29,
-      "vs_benchmark_pct": -1.31,
+      "return_pct": 0.39,
+      "vs_benchmark_pct": -1.64,
       "benchmark": "SPY",
-      "n_points": 20
+      "n_points": 21
     },
     {
       "name": "model-bear",
       "since": "2026-06-12",
-      "return_pct": -0.85,
-      "vs_benchmark_pct": -2.46,
+      "return_pct": -0.8,
+      "vs_benchmark_pct": -2.82,
       "benchmark": "SPY",
-      "n_points": 18
+      "n_points": 19
     },
     {
       "name": "model-capital_preservation",
       "since": "2026-06-12",
-      "return_pct": -0.33,
-      "vs_benchmark_pct": -1.93,
+      "return_pct": -0.3,
+      "vs_benchmark_pct": -2.33,
       "benchmark": "SPY",
-      "n_points": 20
+      "n_points": 21
     },
     {
       "name": "model-growth",
       "since": "2026-06-12",
-      "return_pct": 0.88,
-      "vs_benchmark_pct": -0.72,
+      "return_pct": 1.0,
+      "vs_benchmark_pct": -1.02,
       "benchmark": "SPY",
-      "n_points": 20
+      "n_points": 21
     }
   ],
   "caveats": [
