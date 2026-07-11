@@ -1,0 +1,30 @@
+{
+  "attempts": 1,
+  "day": "2026-07-08",
+  "document": "entry_hash.txt",
+  "entry_hash": "d542919fa497a433140b7c400d890959e94806da727e7a9f2489185b5fd96b36",
+  "imprint_sha256": "08223cfb2a2f3b11e154e2becab609f583286b45a867a8b4a018fa6f46be04f2",
+  "last_attempt": "2026-07-11T22:19:05.164608+00:00",
+  "ots": {
+    "calendars": [
+      "https://a.pool.opentimestamps.org",
+      "https://b.pool.opentimestamps.org"
+    ],
+    "status": "pending"
+  },
+  "schema": 1,
+  "seq": 1,
+  "state": "anchored",
+  "tsa": {
+    "digicert": {
+      "gen_time": "2026-07-11T22:19:00+00:00",
+      "status": "granted",
+      "url": "http://timestamp.digicert.com"
+    },
+    "freetsa": {
+      "gen_time": "2026-07-11T22:19:00+00:00",
+      "status": "granted",
+      "url": "https://freetsa.org/tsr"
+    }
+  }
+}
